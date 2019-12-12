@@ -1,0 +1,15 @@
+.container {
+  border: 1px solid darkgrey;
+  border-radius: 6px;
+  width: 800px;
+  height: 600px;
+  max-height: 800px;
+  overflow: auto;
+}
+
+.categoryWrapper {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}

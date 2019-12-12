@@ -1,0 +1,36 @@
+.editItem {
+  width: 700px;
+  height: 45px;
+  border: 1px solid;
+  border-radius: 12px;
+  background-color: yellowgreen;
+  text-decoration: none;
+  color: black;
+  position: relative;
+}
+
+.editItemWrapper {
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.boldText {
+  font-weight: 600;
+  font-size: 17px;
+}
+
+.crossDelete {
+  position: absolute;
+  right: 0;
+  padding-right: 5px;
+  color: aliceblue;
+}
+
+.inputWrapper {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

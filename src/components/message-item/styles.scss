@@ -1,0 +1,33 @@
+.message {
+  width: 700px;
+  height: 45px;
+  border: 1px solid;
+  border-radius: 12px;
+  background-color: cornflowerblue;
+  text-decoration: none;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.messageItemWrapper {
+  padding: 5px;
+  display: grid;
+  justify-content: center;
+}
+
+.boldText {
+  font-weight: 600;
+  font-size: 17px;
+}
+
+.crossDelete {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding-top: 5px;
+  padding-right: 5px;
+  cursor: pointer;
+}
